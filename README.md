@@ -1,5 +1,6 @@
-# gs-dsls
+# GreekSchools Domain-Specific Languages
 [![GreekSchools Logo][gs-logo]][gs]
+
 This repository hosts the Context-Free Grammars for the Domain-Specific Languages developed within the GreekSchools project.
 
 
