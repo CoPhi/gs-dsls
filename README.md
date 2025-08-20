@@ -3,7 +3,7 @@
 This repository hosts the Context-Free Grammars for the Domain-Specific Languages developed within the GreekSchools project.
 
 
-The DSE DSL-Based Methodology CophiEditor: [cophieditor.greekschools.eu][viewer] 
+The DSL-Based DSE Methodology CophiEditor: [cophieditor.greekschools.eu][viewer] 
 
 ## About
 The **ERC Advanced Grant 885222-GreekSchools, The Greek Philosophical Schools according to Europe’s Earliest ‘History of Philosophy’: Towards a New Pioneering Critical Edition of Philodemus’ Arrangement of the Philosophers** (European Commission, Horizon 2020, ‘Ideas’, [https://greekschools.eu][gs], *PI: G. Ranocchia*) aims to provide a new critical edition, with introduction and commentary, of Philodemus of Gadara’s Arrangement of the Philosophers, a treatise in several books handed down by eight Herculaneum Papyri.
