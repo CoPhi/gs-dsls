@@ -11,7 +11,7 @@ The **ERC Advanced Grant 885222-GreekSchools, The Greek Philosophical Schools ac
 
 A crucial part of GreekSchools is engaging the scholarly community in a permanent collaborative review in progress of our critical edition by launching a new open-source scholarly Web platform on which the critical texts will be uploaded and be made available open-access, for papyrological and exegetical comments. The platform is composed by two different parts: a textual editing tool, and the open access viewer of the critical text. 
 
-The repository includes, diplomatic and literary DSLs for transcripition with also palaeographic and critical DSLs for apparatuses as well as for a modern translation.
+The repository includes diplomatic and literary DSLs for transcripition with also palaeographic and critical DSLs for apparatuses as well as for a modern translation.
 
 This material is permanently made accessible open access following the requirements foreseen for the project by the European Commission under the Horizon 2020 research and innovation programme. 
 

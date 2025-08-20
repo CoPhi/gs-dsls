@@ -1,4 +1,5 @@
-grammar GS;
+grammar Euporia;
+options { tokenVocab=EuporiaLexer; }
 
 start: colRef line+;
 
@@ -21,36 +22,4 @@ gsEditor: GS_EDITOR;
 cetera: COMMA CETERA (editor|gsEditor);
 
 operation: OPERATION;
-POST_CORR: 'Cpc';
-CETERA: 'cetera';
-COL: 'Col.';
-OPERATION: 'del.';
-REM_BEG : '//';
-GS_EDITOR : '*';
-EDITOR: 'Sudhaus'|'Cirillo'|'Armstrong'|'Blank'|'Henry'|'Janko'|'Fiorillo';
-LIBRARIUS: 'librarius';
-NUM : [0-9]+;
-SEP : '...'|'…'|'/';
-COLON : ':';
-DASH : '-';
-LAT_SEQ : ('a'..'z'|'A'..'Z'|'á'|'à'|'ä'|'é'|'è'|'ë'|'í'|'ì'|'ï'|'ó'|'ò'|'ö'|'ú'|'ù'|'ü'|'ƀ'|'ð'|'’')+;
-GRC_SEQ : ('\u0370'..'\u0386'|'\u0388'..'\u03ff'|'\u1f00'..'\u1fff'|'\u2019'|'µ'|'·'|'̣'|'&'('a'..'z')+';')+;
-NL : ('\n'|'\r'|'\r\n')+;
-UNDERSCORE : '_';
-L_BRAC : '[';
-R_BRAC : ']';
-DL_BRAC : '⟦';
-DR_BRAC : '⟧';
-L_ANG: '‹';
-R_ANG: '›';
-PIPE : '|';
-L_CURL : '{';
-R_CURL : '}';
-PRE_PUNCT : '“'|'('|'<'|'‘'|'≺';
-PUNCT : '?'|'-'|'’'|'”'|')'|'≻';
-SEMICOLON : ';';
-COMMA : ',';
-DOT : '.';
-WS : (' '|'\t')->skip;
-EXT_PUNCT : '>'|'"'|'='|' ';
-ANY : .+?;
+
