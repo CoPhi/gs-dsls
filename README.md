@@ -18,6 +18,18 @@ This material is permanently made accessible open access following the requireme
 ## Goal
 The goal is to create a flexible environment for scholarly editing critical texts constantly monitored by the community by making both electronic texts and digital sources remotely accessible through a single interface with advanced capabilities.
 
+
+## Run GS-DSLs
+
+### Requirements
+tba
+
+### Run locally
+tba
+
+### Examples
+tba
+
 ## License
 
 ### GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999
