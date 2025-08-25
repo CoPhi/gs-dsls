@@ -60,6 +60,7 @@ ANTLR Parser Generator  Version 4.9.1
  ```
 
 Testing the TestRig Tool:
+
 ```bash
 $ grun
 java org.antlr.v4.gui.TestRig GrammarName startRuleName
@@ -68,6 +69,7 @@ java org.antlr.v4.gui.TestRig GrammarName startRuleName
   [input-filename(s)]
 Use startRuleName='tokens' if GrammarName is a lexer grammar.
 Omitting input-filename makes rig read from stdin.
+```
 
 ### Examples
 Run the ANTLR tool on the `EuporiaLexer.g4` and then on `Euporia.g4`:
