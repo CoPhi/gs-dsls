@@ -11,12 +11,12 @@ The **ERC Advanced Grant 885222-GreekSchools, The Greek Philosophical Schools ac
 
 A crucial part of GreekSchools is engaging the scholarly community in a permanent collaborative review in progress of our critical edition by launching a new open-source scholarly Web platform on which the critical texts will be uploaded and be made available open-access, for papyrological and exegetical comments. The platform is composed by two different parts: a textual editing tool, and the open access viewer of the critical text. 
 
-The repository includes diplomatic and literary DSLs for transcripition with also palaeographic and critical DSLs for apparatuses as well as for a modern translation.
+The repository provides Context-Free Grammars for Domain-Specific Languages designed to encode machine-actionable diplomatic and literary transcriptions of the Herculaneum Papyri, together with palaeographic and critical apparatuses, as well as modern translations.
 
 This material is permanently made accessible open access following the requirements foreseen for the project by the European Commission under the Horizon 2020 research and innovation programme. 
 
 ## Goal
-The goal is to create a flexible environment for scholarly editing critical texts constantly monitored by the community by making both electronic texts and digital sources remotely accessible through a single interface with advanced capabilities.
+The goal is to create a flexible environment for scholarly editing critical texts constantly monitored by the community by making both digital texts and facsimiles remotely accessible through a single interface with advanced capabilities.
 
 
 ## Run GS-DSLs
@@ -25,7 +25,7 @@ The goal is to create a flexible environment for scholarly editing critical text
 - Java (version 11 or higher)
 - [ANTLR][antlr] (version 4.9.1-complete.jar or highter)
 
-### Run locally
+### Run locally (for Linux and Unix-like systems, such as macOS)
 Create aliases for the ANTLR Tool, and `TestRig`.
 
 ```bash
@@ -33,7 +33,7 @@ $ alias antlr4='java -Xmx500M -cp "/path/to/lib/antlr-<version>-complete.jar:$CL
 $ alias grun='java -Xmx500M -cp "/path/to/lib/antlr-<version>-complete.jar:$CLASSPATH:./*" org.antlr.v4.gui.TestRig'
 ```
 
-Testing the ANTLR Tool:
+Testing the ANTLR Tool via grammar compilation:
 
 ```bash
 $ antlr4
